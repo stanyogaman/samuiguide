@@ -1,0 +1,94 @@
+{
+  "common": {
+    "home": "Accueil",
+    "blog": "Blog",
+    "guides": "Guides",
+    "quizzes": "Quiz",
+    "districts": "Quartiers",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "register": "S'inscrire",
+    "profile": "Profil",
+    "logout": "Déconnexion",
+    "readMore": "En savoir plus",
+    "learnMore": "Découvrir",
+    "getStarted": "Commencer",
+    "download": "Télécharger",
+    "free": "Gratuit",
+    "paid": "Payant",
+    "premium": "Premium"
+  },
+  "home": {
+    "hero": {
+      "title": "Votre guide ultime de Koh Samui",
+      "subtitle": "Découvrez des trésors cachés, des perspectives locales et des conseils d'experts pour vivre, investir et explorer le paradis tropical de Thaïlande",
+      "cta": "Explorer les guides",
+      "ctaSecondary": "Faire un quiz"
+    },
+    "featured": {
+      "title": "Guides en vedette",
+      "description": "Des guides sélectionnés pour profiter au maximum de Samui"
+    },
+    "quizzes": {
+      "title": "Quiz populaires",
+      "description": "Trouvez votre match parfait sur l'île"
+    },
+    "blog": {
+      "title": "Derniers articles",
+      "description": "Restez informé des actualités et conseils de l'île"
+    }
+  },
+  "quiz": {
+    "progress": "Question {{current}} sur {{total}}",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "submit": "Soumettre",
+    "results": {
+      "title": "Vos résultats",
+      "yourSegment": "Votre profil",
+      "recommended": "Recommandé pour vous",
+      "downloadGuide": "Télécharger le guide gratuit",
+      "buyGuide": "Obtenir le guide complet",
+      "contactUs": "Nous contacter",
+      "whatsapp": "Chatter sur WhatsApp",
+      "telegram": "Message sur Telegram",
+      "shareResults": "Partager les résultats"
+    }
+  },
+  "auth": {
+    "loginTitle": "Bon retour",
+    "registerTitle": "Créer votre compte",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "forgotPassword": "Mot de passe oublié?",
+    "noAccount": "Pas encore de compte?",
+    "hasAccount": "Vous avez déjà un compte?",
+    "signUp": "S'inscrire",
+    "signIn": "Se connecter"
+  },
+  "guides": {
+    "title": "Guides de Samui",
+    "filterAll": "Tous les guides",
+    "filterFree": "Gratuit",
+    "filterPaid": "Payant",
+    "unlockGuide": "Complétez le quiz pour déverrouiller",
+    "purchaseGuide": "Acheter le guide"
+  },
+  "blog": {
+    "title": "Blog Samui Insider",
+    "readTime": "{{minutes}} min de lecture",
+    "publishedOn": "Publié le {{date}}",
+    "relatedArticles": "Articles connexes"
+  },
+  "districts": {
+    "title": "Explorer les quartiers de Samui",
+    "population": "Population",
+    "attractions": "Attractions principales",
+    "bestFor": "Idéal pour",
+    "averageRent": "Loyer moyen"
+  }
+}

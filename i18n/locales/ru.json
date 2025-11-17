@@ -1,0 +1,94 @@
+{
+  "common": {
+    "home": "Главная",
+    "blog": "Блог",
+    "guides": "Гиды",
+    "quizzes": "Тесты",
+    "districts": "Районы",
+    "about": "О нас",
+    "contact": "Контакты",
+    "login": "Войти",
+    "register": "Регистрация",
+    "profile": "Профиль",
+    "logout": "Выйти",
+    "readMore": "Читать далее",
+    "learnMore": "Узнать больше",
+    "getStarted": "Начать",
+    "download": "Скачать",
+    "free": "Бесплатно",
+    "paid": "Платно",
+    "premium": "Премиум"
+  },
+  "home": {
+    "hero": {
+      "title": "Ваш путеводитель по Ко Самуи",
+      "subtitle": "Откройте для себя скрытые жемчужины, местные инсайты и экспертные советы по жизни, инвестициям и исследованию тропического рая Таиланда",
+      "cta": "Исследовать гиды",
+      "ctaSecondary": "Пройти тест"
+    },
+    "featured": {
+      "title": "Избранные гиды",
+      "description": "Подборка гидов для максимального использования Самуи"
+    },
+    "quizzes": {
+      "title": "Популярные тесты",
+      "description": "Найдите идеальный вариант на острове"
+    },
+    "blog": {
+      "title": "Последние статьи",
+      "description": "Будьте в курсе новостей острова и советов"
+    }
+  },
+  "quiz": {
+    "progress": "Вопрос {{current}} из {{total}}",
+    "previous": "Назад",
+    "next": "Далее",
+    "submit": "Отправить",
+    "results": {
+      "title": "Ваши результаты",
+      "yourSegment": "Ваш профиль",
+      "recommended": "Рекомендовано для вас",
+      "downloadGuide": "Скачать бесплатный гид",
+      "buyGuide": "Получить полный гид",
+      "contactUs": "Связаться с нами",
+      "whatsapp": "Написать в WhatsApp",
+      "telegram": "Написать в Telegram",
+      "shareResults": "Поделиться результатами"
+    }
+  },
+  "auth": {
+    "loginTitle": "С возвращением",
+    "registerTitle": "Создать аккаунт",
+    "email": "Email",
+    "password": "Пароль",
+    "confirmPassword": "Подтвердите пароль",
+    "firstName": "Имя",
+    "lastName": "Фамилия",
+    "forgotPassword": "Забыли пароль?",
+    "noAccount": "Нет аккаунта?",
+    "hasAccount": "Уже есть аккаунт?",
+    "signUp": "Зарегистрироваться",
+    "signIn": "Войти"
+  },
+  "guides": {
+    "title": "Гиды по Самуи",
+    "filterAll": "Все гиды",
+    "filterFree": "Бесплатные",
+    "filterPaid": "Платные",
+    "unlockGuide": "Пройдите тест для разблокировки",
+    "purchaseGuide": "Купить гид"
+  },
+  "blog": {
+    "title": "Блог Samui Insider",
+    "readTime": "{{minutes}} мин чтения",
+    "publishedOn": "Опубликовано {{date}}",
+    "relatedArticles": "Похожие статьи"
+  },
+  "districts": {
+    "title": "Изучить районы Самуи",
+    "population": "Население",
+    "attractions": "Основные достопримечательности",
+    "bestFor": "Лучше всего для",
+    "averageRent": "Средняя аренда"
+  }
+}
