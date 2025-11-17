@@ -1,0 +1,94 @@
+{
+  "common": {
+    "home": "Startseite",
+    "blog": "Blog",
+    "guides": "Ratgeber",
+    "quizzes": "Quiz",
+    "districts": "Bezirke",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "profile": "Profil",
+    "logout": "Abmelden",
+    "readMore": "Mehr lesen",
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Loslegen",
+    "download": "Herunterladen",
+    "free": "Kostenlos",
+    "paid": "Bezahlt",
+    "premium": "Premium"
+  },
+  "home": {
+    "hero": {
+      "title": "Ihr ultimativer Koh Samui Ratgeber",
+      "subtitle": "Entdecken Sie verborgene Schätze, lokale Einblicke und Expertenrat zum Leben, Investieren und Erkunden von Thailands tropischem Paradies",
+      "cta": "Ratgeber entdecken",
+      "ctaSecondary": "Quiz machen"
+    },
+    "featured": {
+      "title": "Empfohlene Ratgeber",
+      "description": "Kuratierte Ratgeber für Ihren Samui-Aufenthalt"
+    },
+    "quizzes": {
+      "title": "Beliebte Quiz",
+      "description": "Finden Sie Ihr perfektes Match auf der Insel"
+    },
+    "blog": {
+      "title": "Neueste Artikel",
+      "description": "Bleiben Sie auf dem Laufenden mit Inselnews und Tipps"
+    }
+  },
+  "quiz": {
+    "progress": "Frage {{current}} von {{total}}",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "submit": "Absenden",
+    "results": {
+      "title": "Ihre Ergebnisse",
+      "yourSegment": "Ihr Profil",
+      "recommended": "Empfohlen für Sie",
+      "downloadGuide": "Kostenlosen Ratgeber herunterladen",
+      "buyGuide": "Vollständigen Ratgeber kaufen",
+      "contactUs": "Kontaktieren Sie uns",
+      "whatsapp": "Chat auf WhatsApp",
+      "telegram": "Nachricht auf Telegram",
+      "shareResults": "Ergebnisse teilen"
+    }
+  },
+  "auth": {
+    "loginTitle": "Willkommen zurück",
+    "registerTitle": "Konto erstellen",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "confirmPassword": "Passwort bestätigen",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "forgotPassword": "Passwort vergessen?",
+    "noAccount": "Noch kein Konto?",
+    "hasAccount": "Bereits ein Konto?",
+    "signUp": "Registrieren",
+    "signIn": "Anmelden"
+  },
+  "guides": {
+    "title": "Samui Ratgeber",
+    "filterAll": "Alle Ratgeber",
+    "filterFree": "Kostenlos",
+    "filterPaid": "Bezahlt",
+    "unlockGuide": "Quiz abschließen zum Freischalten",
+    "purchaseGuide": "Ratgeber kaufen"
+  },
+  "blog": {
+    "title": "Samui Insider Blog",
+    "readTime": "{{minutes}} Min. Lesezeit",
+    "publishedOn": "Veröffentlicht am {{date}}",
+    "relatedArticles": "Ähnliche Artikel"
+  },
+  "districts": {
+    "title": "Samui Bezirke erkunden",
+    "population": "Bevölkerung",
+    "attractions": "Hauptattraktionen",
+    "bestFor": "Am besten für",
+    "averageRent": "Durchschnittliche Miete"
+  }
+}
