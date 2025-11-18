@@ -3,31 +3,7 @@ import { getDictionary } from '@/i18n/dictionaries'
 import { MainLayout } from '@/components/layout/MainLayout'
 import { ArticleList } from '@/components/blog/ArticleList'
 import { Tabs } from '@/components/ui/Tabs'
-
-// Mock data
-const mockArticles = [
-  {
-    id: '1',
-    slug: 'best-time-visit-samui',
-    title: 'When is the Best Time to Visit Koh Samui?',
-    excerpt: 'Discover the optimal seasons for visiting Samui based on weather, crowds, and prices.',
-    content: '<p>Full article content...</p>',
-    coverImage: '/images/blog/best-time.jpg',
-    author: {
-      id: '1',
-      name: 'Sarah Johnson',
-      avatar: '/images/authors/sarah.jpg',
-      bio: 'Samui resident for 10 years',
-    },
-    category: 'Travel Tips',
-    tags: ['weather', 'planning'],
-    readTime: 5,
-    publishedAt: '2024-01-15',
-    locale: 'en' as Locale,
-    createdAt: '2024-01-15',
-    updatedAt: '2024-01-15',
-  },
-]
+import { mockArticles } from '@/data/mockArticles'
 
 export default async function BlogPage({
   params,

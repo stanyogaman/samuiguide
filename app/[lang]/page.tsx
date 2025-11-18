@@ -6,6 +6,7 @@ import { MapWidget } from '@/components/home/MapWidget'
 import { FeaturedGuides } from '@/components/home/FeaturedGuides'
 import { PopularQuizzes } from '@/components/home/PopularQuizzes'
 import { LatestArticles } from '@/components/home/LatestArticles'
+import { mockArticles } from '@/data/mockArticles'
 
 // Mock data - in production, fetch from API
 const mockGuides = [
@@ -54,71 +55,7 @@ const mockGuides = [
   },
 ]
 
-const mockArticles = [
-  {
-    id: '1',
-    slug: 'best-time-visit-samui',
-    title: 'When is the Best Time to Visit Koh Samui?',
-    excerpt: 'Discover the optimal seasons for visiting Samui based on weather, crowds, and prices.',
-    content: '<p>Full article content here...</p>',
-    coverImage: '/images/blog/best-time.jpg',
-    author: {
-      id: '1',
-      name: 'Sarah Johnson',
-      avatar: '/images/authors/sarah.jpg',
-      bio: 'Samui resident for 10 years',
-    },
-    category: 'Travel Tips',
-    tags: ['weather', 'planning', 'seasons'],
-    readTime: 5,
-    publishedAt: '2024-01-15',
-    locale: 'en' as Locale,
-    createdAt: '2024-01-15',
-    updatedAt: '2024-01-15',
-  },
-  {
-    id: '2',
-    slug: 'samui-food-scene-2024',
-    title: 'Samui Food Scene: Top Restaurants in 2024',
-    excerpt: 'Explore the island\'s culinary landscape with our guide to the best dining experiences.',
-    content: '<p>Full article content here...</p>',
-    coverImage: '/images/blog/food-scene.jpg',
-    author: {
-      id: '1',
-      name: 'Sarah Johnson',
-      avatar: '/images/authors/sarah.jpg',
-      bio: 'Samui resident for 10 years',
-    },
-    category: 'Food & Dining',
-    tags: ['restaurants', 'food', 'dining'],
-    readTime: 8,
-    publishedAt: '2024-01-10',
-    locale: 'en' as Locale,
-    createdAt: '2024-01-10',
-    updatedAt: '2024-01-10',
-  },
-  {
-    id: '3',
-    slug: 'digital-nomad-samui',
-    title: 'Digital Nomad Life in Samui: A Complete Guide',
-    excerpt: 'Everything remote workers need to know about working from this tropical paradise.',
-    content: '<p>Full article content here...</p>',
-    coverImage: '/images/blog/digital-nomad.jpg',
-    author: {
-      id: '1',
-      name: 'Sarah Johnson',
-      avatar: '/images/authors/sarah.jpg',
-      bio: 'Samui resident for 10 years',
-    },
-    category: 'Living',
-    tags: ['digital nomad', 'remote work', 'internet'],
-    readTime: 10,
-    publishedAt: '2024-01-05',
-    locale: 'en' as Locale,
-    createdAt: '2024-01-05',
-    updatedAt: '2024-01-05',
-  },
-]
+// Note: mockArticles is now imported from @/data/mockArticles
 
 export default async function HomePage({
   params,
